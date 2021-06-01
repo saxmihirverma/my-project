@@ -32,8 +32,3 @@ jobs:
   publish:
 
     needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Will never run
-      run: |
-        echo "If you can read this, the experiment failed"
